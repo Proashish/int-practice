@@ -10,7 +10,8 @@ public class IntApplication {
 
 		SpringApplication.run(IntApplication.class, args);
 		System.out.println("Hello World");
-		System.out.println("feature-branch-login-feature");
+		System.out.println("Second Checking");
+
 
 
 	}
