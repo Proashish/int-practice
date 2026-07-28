@@ -27,7 +27,6 @@ public class UserController {
                     new LoginResponse("Login Successful"));
         }
 
-        return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
-                .body(new LoginResponse("Invalid Username or Password"));
+
     }
 }
