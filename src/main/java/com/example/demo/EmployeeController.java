@@ -24,6 +24,7 @@ public class EmployeeController {
         public ResponseEntity<List<Employee>> getAllEmployees() {
             return ResponseEntity.ok(employeeService.getAllEmployees());
         }
+        System.out.println("Hello");
 
         // Get Employee By Id
         @GetMapping("/{id}")
